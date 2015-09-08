@@ -11,7 +11,8 @@ exports.init = function (args) {
 		$.addClass(pickerColumn, column.classes);
 		
 		for(var j=0,jj=column.rows.length; j<jj; j++){
-			pickerColumn.addRow( Ti.UI.createPickerRow(column.rows[j]) );
+			var rowData = _.extend($.createStyle({ classes: 'picker-item' }), column.rows[j]);
+			pickerColumn.addRow( Ti.UI.createPickerRow(rowData) );
 		};
 		
 		columns.push(pickerColumn);
@@ -49,7 +50,8 @@ exports.reset = function () {
 exports.reloadColumn = function(columnIndex, columnData) {
 	var rows = [];
 	for(var j=0,jj=columnData.rows.length; j<jj; j++){
-		rows.push( Ti.UI.createPickerRow(columnData.rows[j]) );
+		var rowData = _.extend($.createStyle({ classes: 'picker-item' }), columnData.rows[j]);
+		rows.push( Ti.UI.createPickerRow(rowData) );
 	};
 	
 	var column = $.picker.columns[columnIndex];	

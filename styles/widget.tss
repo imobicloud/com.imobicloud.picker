@@ -6,6 +6,7 @@
 	".picker-body": { top: 32 }
 	".picker-body[platform=ios]": { width: '100%' }
 	".picker-no-header": { top: 0 }	
+		".picker-item[platform=ios]": { font: { fontSize: 14 } }
 		".picker-list[platform=android]": { separatorInsets: { left: 0, right: 0 }, separatorColor: '#e7e7e7', backgroundColor: '#f7f9f9' }
 			".picker-item[platform=android]": { height: 42, backgroundColor: 'transparent', selectedBackgroundColor: 'transparent' }	
 				".picker-item-icon[platform=android]": { left: 10, width: 32, height: 32, touchEnabled: false }

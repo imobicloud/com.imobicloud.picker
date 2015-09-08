@@ -6,7 +6,7 @@
  		template: '', // 'title', 'icon' or 'icon-title'
  		rows: [{
  			id: '',
- 			icon: '',
+ 			icon: '', // android only
  			title: ''
  		}],
  		selectedRow: 0 // row index
