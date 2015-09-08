@@ -1,0 +1,17 @@
+/*
+".picker": { height: 216 }
+	".picker-header": { height: 32, top: 0, backgroundColor: '#484d57' }
+		".picker-header-column": {  }
+			".picker-header-label": { left: 10, color: '#fff', font: { fontSize: 12, fontWeight: 'bold' } }
+	".picker-body": { top: 32 }
+	".picker-body[platform=ios]": { width: '100%' }
+	".picker-no-header": { top: 0 }	
+		".picker-list[platform=android]": { separatorInsets: { left: 0, right: 0 }, separatorColor: '#e7e7e7', backgroundColor: '#f7f9f9' }
+			".picker-item[platform=android]": { height: 42, backgroundColor: 'transparent', selectedBackgroundColor: 'transparent' }	
+				".picker-item-icon[platform=android]": { left: 10, width: 32, height: 32, touchEnabled: false }
+				".picker-item-title[platform=android]": { left: 52, color: '#222', font: { fontSize: 16 }, touchEnabled: false }
+				
+	".column-xxx[platform=android]": { width: '50%', left: 0 }
+	".column-yyy[platform=android]": { width: '50%', left: '50%' }
+	".column-yyy[platform=ios]": { width: 100, left: 100 } // IOS: width must be a number
+*/
