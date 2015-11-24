@@ -2,6 +2,10 @@
 ====
 
 Picker for iOS and Android
+IOS
+![Picker example](https://goo.gl/photos/NnRWANvxEMBdmGZB7)
+Android
+![Picker example](https://goo.gl/photos/GHetDWa77Q6uTb8L6)
 
 app.tss
 
