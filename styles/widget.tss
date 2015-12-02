@@ -4,7 +4,6 @@
 		".picker-header-column": {  }
 			".picker-header-label": { left: 10, color: '#fff', font: { fontSize: 12, fontWeight: 'bold' } }
 	".picker-body": { top: 32 }
-	".picker-body[platform=ios]": { width: '100%' }
 	".picker-no-header": { top: 0 }	
 		".picker-item[platform=ios]": { font: { fontSize: 14 } }
 		".picker-list[platform=android]": { separatorInsets: { left: 0, right: 0 }, separatorColor: '#e7e7e7', backgroundColor: '#f7f9f9' }
